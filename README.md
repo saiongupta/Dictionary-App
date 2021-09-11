@@ -8,8 +8,9 @@ Founder [@saiongupta](https://twitter.com/saiongupta), Co-Founder [@saiasmigupta
 
 This is a simple Dictionary App developed using html, css, javascript, [dictionaryapi.dev](https://dictionaryapi.dev/) and et al.
 
-Here is the link to our app.
-[https://dictionary.saion.repl.co/](https://dictionary.saion.repl.co/)
+[App : https://dictionary.saion.repl.co/](https://dictionary.saion.repl.co/)
+
+[YouTube Tutorial : https://youtu.be/cLT--F4hTTU](https://youtu.be/cLT--F4hTTU)
 
 [Code : https://github.com/saiongupta/Dictionary-App](https://github.com/saiongupta/Dictionary-App)
 
@@ -17,6 +18,6 @@ Here is the link to our app.
 
 [10xCoderKids@gmail.com](mailto:10xCoderKids@gmail.com)
 
-[https://www.10xcoderkids.com](https://www.10xcoderkids.com/)
+[https://www.10xCoderKids.com](https://www.10xcoderkids.com/)
 
 [https://twitter.com/10xCoderKids](https://twitter.com/10xCoderKids)
