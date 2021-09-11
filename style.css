@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+  margin-top: 10px;
+}
+
+#firstline {
+  display: flex;
+  position: relative;
+}
+
+#play {
+  font-size: 45px;
+  position: absolute;
+  right: 0px;
+  margin-top: 7px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+}
+
+#logo {
+  width: 50px;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+#topbar {
+  height: 100px;
+  border-bottom: 1px solid lightgray;
+  position: relative;
+}
+
+#search {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  outline: none;
+  border-right: 0;
+}
+
+#submit {
+  position: absolute;
+  left: 75%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 46px;
+  font-size: 30px;
+  border: 2px solid black;
+  border-left: 0;
+  background: white;
+  outline: none;
+}
+
+.partofspeech {
+  color: grey;
+  font-style: italic;
+}
+
+.definition {
+  margin-left: 50px;
+}
+
+.example {
+  color: grey;
+  margin-left: 50px;
+  margin-top: -12px;
+}
+
+.similar {
+  color: green;
+  margin-top: -4px;
+  margin-left: 50px;
+}
+
+@media only screen and (max-width: 421px) {
+  #logo {
+    display: none;
+  }
+}

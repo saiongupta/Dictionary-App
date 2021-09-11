@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Dictionary | 10xCoderKids</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="logo.jpeg" rel="shortcut icon" type="image/x-icon">
+    <audio id="sound" src="//ssl.gstatic.com/dictionary/static/sounds/20200429/hello--_gb_1.mp3"></audio>
+  </head>
+  <body>
+    <div id="topbar">
+      <img id="logo" src="dict.jpg">
+      <input id="search" type="text" placeholder="Search for a word...">
+      <button id="submit" onclick="hndlr()">&#128269;</button>
+    </div><br>
+    <div id="content">
+      <div id="firstline">
+        <h1 id="word">Hello</h1>
+        <button id="play" onclick="document.getElementById('sound').play()">🔊</button>
+      </div>
+      <div id="phonetic">/həˈləʊ/</div><br>
+      <div id="meanings">
+        <p class="partofspeech">exclamation</p>
+        <p class="definition">used as a greeting or to begin a phone conversation.</p>
+        <p class="example">"hello there, Katie!"</p>
+        <p class="similar">Similar: <span class="similarWords" style="color: black;">Nothing Similar</span></p>
+        <p class="partofspeech">noun</p>
+        <p class="definition">an utterance of ‘hello’; a greeting.</p>
+        <p class="example">"she was getting polite nods and hellos from people"</p>
+        <p class="similar">Similar: <span class="similarWords" style="color: black;">Nothing Similar</span></p>
+        <p class="partofspeech">verb</p>
+        <p class="definition">say or shout ‘hello’.</p>
+        <p class="example">"I pressed the phone button and helloed"</p>
+        <p class="similar">Similar: <span class="similarWords" style="color: black;">Nothing Similar</span></p>
+      </div>
+    </div>
+    <h3 style="text-align:center;">Ⓒ <a href='http://www.10xCoderKids.com' target='_blank'>10xCoderKids</a>ᵀᴹ</h3>
+    <script src="script.js"></script>
+  </body>
+</html>
